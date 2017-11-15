@@ -6,9 +6,11 @@ namespace kalkulator1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            //dsadadad
-            //ddsadad
+            Kalkulator kal = new Kalkulator(10, 5);
+
+            Console.WriteLine("Dodawanie: " + kal.dodawanie() + " Odejmowanie:  " + kal.odejmowanie()
+                + " Mnozenie: " + kal.mnozenie() + " Dzielenie: " + kal.dzielenie() + " Modulo: " + kal.modulo());
+            Console.ReadKey();
         }
     }
 }
